@@ -1,0 +1,1447 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+    <title>shreyash-shandiliya</title>
+    
+ 
+    <link rel="stylesheet" id="wp-block-library-css"
+        href="http://gracethemesdemo.com/music-club/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2"
+        type="text/css" media="all">
+    <style id="global-styles-inline-css" type="text/css">
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+            --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+            --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+            --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+            --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+            --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+            --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+            --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+    </style>
+    
+    
+
+
+
+    <link rel="stylesheet" id="music-club-pro-basic-style-css"
+        href="http://gracethemesdemo.com/music-club/wp-content/themes/music-club-pro/style.css?ver=6.0.2"
+        type="text/css" media="all">
+
+
+   
+
+    <script>
+        jQuery(window).bind('scroll', function () {
+            var wwd = jQuery(window).width();
+            if (wwd > 981) {
+                var navHeight = jQuery(window).height() - 575;
+                if (jQuery(window).scrollTop() > navHeight) {
+                    jQuery(".site-header").addClass('fixed');
+                } else {
+                    jQuery(".site-header").removeClass('fixed');
+                }
+            }
+        });
+
+
+        jQuery(window).load(function () {
+            jQuery('#slider').nivoSlider({
+                effect: 'random', //sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft, fold, fade, random, slideInRight, slideInLeft, boxRandom, boxRain, boxRainReverse, boxRainGrow, boxRainGrowReverse
+                animSpeed: 500,
+                pauseTime: 4000,
+                directionNav: true,
+                controlNav: true,
+                pauseOnHover: false,
+            });
+        });
+
+
+        jQuery(window).load(function () {
+            jQuery('.owl-carousel').owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 8000,
+                margin: 0,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+
+        });
+
+
+        jQuery(document).ready(function () {
+
+            jQuery('.link').on('click', function (event) {
+                var $this = jQuery(this);
+                if ($this.hasClass('clicked')) {
+                    $this.removeAttr('style').removeClass('clicked');
+                } else {
+                    $this.css('background', '#7fc242').addClass('clicked');
+                }
+            });
+
+        });
+    </script>
+    <style>
+        body,
+        .contact-form-section .address,
+        .accordion-box .acc-content {
+            color: #959595;
+        }
+
+        body {
+            font-family: Assistant;
+            font-size: 16px;
+        }
+
+        h2.section_title,
+        h3.section_title {
+            font-family: Open Sans;
+            font-size: 48px;
+            color: #ffffff;
+        }
+
+        .counter-column {
+            font-family: Open Sans;
+        }
+
+       
+        .footer h5 {
+            color: #ffffff;
+            font-size: 22px;
+        }
+
+        .design-by {
+            color: #ffffff
+        }
+
+        #topvideo_player {
+            background-color: #000000;
+        }
+
+        #aboutus_section {
+            background-color: #0e0e0e;
+        }
+
+        #servicespanel {
+            background-color: #1c1c1c;
+        }
+
+        .button,
+        #commentform input#submit,
+        input.search-submit,
+        .post-password-form input[type=submit],
+        p.read-more a,
+        .pagination ul li span,
+        .pagination ul li a,
+        .headertop .right a,
+        .wpcf7 form input[type='submit'],
+        #sidebar .search-form input.search-submit {
+            color: #ffffff;
+        }
+
+        #commentform input#submit:hover,
+        input.search-submit:hover,
+        .post-password-form input[type=submit]:hover,
+        p.read-more a:hover,
+        .pagination ul li .current,
+        .pagination ul li a:hover,
+        .headertop .right a:hover,
+        .wpcf7 form input[type='submit']:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        a.morebutton {
+            color: #ffffff;
+        }
+
+        a.morebutton:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        aside.widget {
+            color: #ffffff;
+        }
+
+        h3.widget-title {
+            color: #ffffff;
+        }
+
+        #footer-wrapper {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        #footer-wrapper {
+            background: url(http://gracethemesdemo.com/music-club/wp-content/themes/music-club-pro/images/footerbgimage.jpg) no-repeat;
+            background-size: 100% 100% !important;
+        }
+
+        .contactdetail a {
+            color: #ffffff;
+        }
+
+        .nivo-controlNav a {
+            background-color: #ffffff
+        }
+
+        #sidebar ul li a {
+            color: #ffffff;
+        }
+
+        .nivo-caption h2 {
+            font-family: Roboto;
+            color: #ffffff;
+            font-size: 60px;
+        }
+
+        .nivo-caption p {
+            font-family: Assistant;
+            color: #ffffff;
+            font-size: 20px;
+        }
+
+        .copyright-wrapper a:hover {
+            color: #ffffff;
+        }
+
+        .toggle a {
+            color: #ffffff;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: Open Sans;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #ffffff;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        h4 {
+            font-size: 22px;
+            color: #ffffff;
+        }
+
+        h5 {
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+        h6 {
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        #footer-wrapper .social-icons a {
+            color: #ffffff;
+        }
+
+        ul.portfoliofilter li a {
+            color: #ffffff;
+        }
+
+        .holderwrap h5 {
+            color: #ffffff;
+        }
+
+        .holderwrap h5::after {
+            background-color: #ffffff;
+        }
+
+        #clienttestiminials .item {
+            color: #ffffff;
+        }
+
+        ul.recent-post li h6 a {
+            color: #ffffff;
+        }
+
+        .logo img {
+            height: 49px;
+        }
+
+        .logo h1 {
+            font-family: Kaushan Script;
+            color: #ffffff;
+            font-size: 39px
+        }
+
+        .tagline {
+            color: #5d5d5d;
+        }
+
+        .logo img {
+            height: 49px;
+        }
+
+        .sitenav ul li ul li {
+            border-color: #222222;
+        }
+
+        .sitenav ul {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px
+        }
+
+        .sitenav ul li a,
+        .sitenav ul li.current_page_item ul.sub-menu li a,
+        .sitenav ul li.current-menu-parent ul.sub-menu li a {
+            color: #ffffff;
+        }
+
+        .header-top .social-icons a {
+            color: #ffffff;
+        }
+
+        .header-top {
+            color: #ffffff;
+        }
+
+        .logonavigation,
+        .sitenav ul li:hover>ul,
+        .logo {
+            background-color: #000000;
+        }
+
+        .team_content_fixer {
+            background-color: rgba(118, 67, 210, 0.8);
+        }
+
+        #commentform input#submit,
+        .button,
+        input.search-submit,
+        .post-password-form input[type='submit'],
+        .wpcf7 form input[type='submit'],
+        #commentform input#submit:hover,
+        input.search-submit:hover,
+        .post-password-form input[type=submit]:hover,
+        .wpcf7 form input[type='submit']:hover,
+        p.read-more a,
+        .header-top .social-icons a:hover,
+        #topvideo_player .ai-wrap .ai-audio-control,
+        #topvideo_player .ai-wrap .ai-volume-bar.ai-volume-bar-active::before,
+        #topvideo_player .ai-wrap .ai-track-progress,
+        .released_list .owl-prev,
+        .released_list .owl-next,
+        .released_list .item,
+        .pagination ul li span,
+        .pagination ul li a,
+        .headertop .right a,
+        #sidebar .search-form input.search-submit,
+        .nivo-controlNav a.active,
+        .holderwrap,
+        .owl-controls .owl-dot.active,
+        p.read-more a:hover,
+        .pagination ul li .current,
+        .pagination ul li a:hover,
+        .headertop .right a:hover,
+        #footer-wrapper .social-icons a,
+        .toggle a,
+        .pagemore:hover,
+        .gradientbtn,
+        .newspostdate,
+        .news-box:hover .newsmorebtn,
+        #section7 .button:hover,
+        .blogrightsidebar .post-thumb,
+        .news-box .news-thumb,
+        .audio_album_list .audiothumbbx,
+        .bloggridlayout .post-thumb,
+        .woocommerce ul.products li.product a.add_to_cart_button:hover,
+        .nbs-flexisel-nav-left:hover,
+        .nbs-flexisel-nav-right:hover,
+        .woocommerce ul.products li.product:hover,
+        .teammember-list:hover .degination,
+        .woocommerce span.onsale,
+        .nivo-caption .button:hover,
+        #teampanel .owl-prev:hover,
+        #teampanel .owl-next:hover,
+        .moreicon .i {
+            background-color: #7643d2;
+        }
+    </style>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <style type="text/css">
+        @media screen and (max-width:900px) {
+            #logo {
+                width: 80px !important;
+                height: 30PX;
+            }
+        }
+
+        #logo {
+            width: 100px !important;
+            height: 60PX;
+        }
+
+        .card1 {
+            height: 200px;
+            width: 200px;
+            background-color: orange;
+            transform: rotate(45deg);
+            margin-top: 100px;
+            z-index: 2;
+            position: absolute;
+
+        }
+
+        .card2 {
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            transform: rotate(45deg);
+            margin-top: 50px;
+            z-index: 1;
+            position: absolute;
+
+        }
+    </style>
+
+</head>
+<body id="top" class="home blog" style="background-color:black">
+    <div class="sitewrapper  siteinnerpage">
+
+        <div class="site-header">
+            <div class="container">
+                <div class="header-top">
+
+                    <div class="right">
+                        
+                    </div>
+                    <div class="clear"></div>
+
+                </div>
+                <!--end header-top-->
+
+                <div class="logonavigation">
+
+                    <div class="logo">
+                        <div class="site-branding-text">
+                            <a href="">
+                                <img id="logo" src="shreyash-shandiliya.png" style="width: 150px;"
+                                    alt="">
+                            </a>
+
+                        </div>
+                    </div><!-- .logo -->
+
+                    <div class="header_right">
+                        <div class="toggle">
+                            <a class="toggleMenu" href="#" style="display: none;">
+                                Menu
+                            </a>
+                        </div><!-- toggle -->
+
+                        <div class="sitenav">
+                            <div class="menu-primary-container">
+                                <ul id="menu-primary" class="menu">
+                                    <li id="menu-item-782">
+                                        <a href="index.html" aria-current="page">Home</a>
+                                    </li>
+                                    <li id="menu-item-782">
+                                        <a href="contact.html" aria-current="page">Contact</a>
+                                    </li>
+                                      <li id="menu-item-782">
+                                            <a href="pages.html" aria-current="page" target="_blank">Music</a>
+                                        </li>
+
+                                    <li id="menu-item-782">
+                                        <a href="bioGraphy.html" aria-current="page">Biography</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <!--.sitenav -->
+                    </div>
+                    <!--header_right-->
+                    
+                    <div class="clear"></div>
+                </div><!-- .logonavigation -->
+            </div><!-- .container-->
+        </div><!-- .site-header -->
+        <section>
+            <div class="container-fluid fadeInLeft">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="text-white">
+                            <h1 style="padding-top: 200px;font-size: 60px;">BioGraphy</h1>
+                        </div>
+                            <p class="text-white">Shreyash Shandiliya (Born 21st November, 1993) Is An Indian , Composer, Lyricist & Owner/Founder Of SoulFul Musik Academy & HS Musik Company. Shreyash Have Also Collaborated With Other Bollywood Singers Like Krishna Beura, Saraj Jagan, Anwesshaa, Shweta Pandit & Others.</p>
+                        
+                    </div>
+                    <div class="col-lg-4">
+                       
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid fadeInLeft">
+                <div class="row" style="background-image: url('https://images.newindianexpress.com/uploads/user/imagelibrary/2022/8/31/w1200X800/sfl.jpeg');background-attachment: fixed;background-repeat: no-repeat;background-size: cover;">
+                    <div class="col-lg-6" >
+                        <div class="card mt-3 mb-3">
+                            <h1 style="color: orange;" class="ms-3 mt-3">Early Life</h1>
+                        <p class="ms-3 mt-3 mb-3">Shreyash Was Born On 21st November, 1993 In Amarpur, Banka, Bihar To Sujit Kumar Tiwary & Punam Tiwary. He Did His Schooling From Saint Joseph’s School, Banka. He Didn’t Enjoy Studying & Music Was Something Where He Was Always Attracted Towards. He Performed For The 1st Time In His School While He Was In 2nd Standard Where He Sang Tumse Achha Kaun Hai & Received 1st Prize & This Is How Kept On Participating From Then In His School & Town. He Was Strongly Influenced & Inspired By Himesh</p>
+                        
+                        <p class="ms-3 mt-3 mb-3">Reshammiya’s Music & Singing Skills, He Still Have All The Audio Cassette Collection Of Himesh Reshammiya’s Almost All The Songs At His Mumbai Residence. He Also Went For An Audition For Indian Idol Junior & Sa Re Ga Ma Pa Little Champs Where He Couldn’t Make It As He Was Not At All Formally Trained. His Parents Asked Him To Start Learning With Some Teacher There In Banka, But He Wanted To Begin Everything In & From Mumbai. & Thus, Moved To Mumbai While He Was In 10th
+                        </p>
+                        <br>
+                        <p class="ms-3 mt-3 mb-3">Standard & He Received His 11th & 12th Degree’s From NIOS (National Institute Of Open Schooling)</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-6">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top: -100px;">
+            <div class="container-fluid fadeInLeft">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="#achievements" style="text-decoration: none;">
+                            <div class="card">
+                                <img src="https://st1.latestly.com/wp-content/uploads/2022/11/resize1-48.jpg" alt="">
+                                <h4 class="ms-3 mt-3 text-dark">Achievements & Awards</h4>
+                                <ul class="ms-3 mb-3">
+                                    <li>Three Best Rate Rated Music School In Mumbai. Nominated:</li>
+                                    <li>India's Signature Brands 2020</li>
+                                    <li>APS Media Award By 2018</li>
+                                    <li>India 5000 Best MSME Awards 2018</li>
+                                    <li>Global Icon Awards 2017</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <a href="#discovery">
+                            <div class="card">
+                            <img src="https://www.glamsham.com/wp-content/uploads/2022/10/Shreyash-Shandiliya-of-HS-Musik-Company.jpg" alt="">
+                            <h4 class="ms-3 mt-3 text-dark">Discography</h4>
+                            <ul class="ms-3 mb-3">
+                                <li>Discography As A Singer</li>
+                                <li>Discography As A Composer</li>
+                                <li>Discography As A Lyricist</li>
+                               
+                            </ul>
+                        </div>
+                    </a>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2022/8/31/w1200X800/sfl.jpeg" alt="">
+                            <h4 class="ms-3 mt-3 text-dark">Journey As A Photographer</h4>
+                            <ul class="ms-3 mb-3">
+                                <li>#ShreyashShandiliyaPhotography</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <div class="card">
+                            <img src="https://i.ytimg.com/vi/TecP6qtgPnA/maxresdefault.jpg" alt="">
+                            <h4 class="ms-3 mt-3 text-dark">Journey As A Youtuber</h4>
+                            <ul class="ms-3 mb-3">
+                                <li>#ShreyashShandiliyaLive &
+                                    Vlogging Channel (Shreyash Shandiliya)
+                                    Moto Vlog Channel (Musician On Ride)
+                                    Gamming Channel (Musician Gamer 21)
+                                    Music School (SoulFul Musik Academy) Music Company (HS Musik Company)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="#Humanitarian">
+                            <div class="card">
+                                <img src="https://i.ytimg.com/vi/hUerexpfEMI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBjIIZvb3PgcWukQNy_jARJcGtDTw" alt="">
+                                <h4 class="ms-3 mt-3 text-dark">Humanitarian Work</h4>
+                                <ul class="ms-3 mb-3">
+                                    <li>Free Music Education To BPL People</li>
+                                    <li>Launch Platform For All Aspiring Musical Artist.</li>
+                                  
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <a href="#impact">
+                        <div class="card">
+                            <img src="https://sulcdn.azureedge.net/biz-live/img/soulful-musik-academy-10028027-89d97697.jpeg" alt="">
+                            <h4 class="ms-3 mt-3 text-dark">Impact & Recognition</h4>
+                            <ul class="ms-3 mb-3">
+                                <li>Arijit Singh , Govinda</li>
+                                <li>Madhuri Dixit , Suniel Shetty</li>
+                                <li>Kalyanji-Anandji , Abijeet Bhattacharya</li>
+                                <li>Abhijeet Sawant , Monali Thakur</li>
+                                <li>Viju Shah , Amit Tandon</li>
+                               
+                            </ul>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#external">
+                        <div class="card">
+                            <img src="https://3.imimg.com/data3/QU/CI/MY-13369915/guitar-class-500x500.jpg" alt="">
+                            <h4 class="ms-3 mt-3 text-dark">Here Me On</h4>
+                            <ul class="ms-3 mb-3">
+                                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Gaana_logo.svg/2560px-Gaana_logo.svg.png" alt="" style="height: 20px;width: 100px;"></li>
+                                <li><img src="https://cdn0.iconfinder.com/data/icons/roundettes-for-os-x-vol-v/512/iTunes_alt-512.png" alt="" style="height: 20px">iTunes</li>
+                                <li><img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="" style="height: 20px">Spotify</li>
+                                <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Hungama_logo.png" alt="" style="height: 20px"></li>
+                                <li><img src="https://play-lh.googleusercontent.com/kl-7LqnjbT0onFUgWNrcz06oRXovfvO_GVYZoLW1jNwl8NlpFx8NCwKgXuvp1hbWdZI" alt="" style="height: 20px">jio Savan</li>
+                                <li><img src="https://logos-world.net/wp-content/uploads/2020/11/Apple-Music-Logo-2015-present.png" alt="" style="height: 30px"></li>
+                                <li><img src="https://pngshare.com/wp-content/uploads/2021/06/Amazon-Prime-App-Logo-15.png" alt="" style="height: 30px"></li>
+
+                            </ul>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <a href="#Personal">                        <div class="card">
+                            <img src="https://i.ytimg.com/vi/hTfEGg1wUO8/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDTNVIwrgJJymb6jXCVoWnk-aGrSA" alt="">
+                            <h4 class="ms-3 mt-3 text-dark">Personal Life</h4>
+                            <!-- <ul class="ms-3 mb-3">
+                                <li>#ShreyashShandiliyaLive &
+                                    Vlogging Channel (Shreyash Shandiliya)
+                                    Moto Vlog Channel (Musician On Ride)
+                                    Gamming Channel (Musician Gamer 21)
+                                    Music School (SoulFul Musik Academy) Music Company (HS Musik Company)</li>
+                            </ul> -->
+                        </div>
+                    </a>
+
+                        <a href="#Vision">
+                        <div class="card mt-5">
+                            <img src="https://i.ytimg.com/vi/pPp9nUPGXkg/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBTI5xzCDOWE6HsuM15QrCgvvDyPA" alt="">
+                            <h4 class="ms-3 mt-3 text-dark">Vision / Purpose Of Life</h4>
+                            <!-- <ul class="ms-3 mb-3">
+                                <li>#ShreyashShandiliyaLive &
+                                    Vlogging Channel (Shreyash Shandiliya)
+                                    Moto Vlog Channel (Musician On Ride)
+                                    Gamming Channel (Musician Gamer 21)
+                                    Music School (SoulFul Musik Academy) Music Company (HS Musik Company)</li>
+                            </ul> -->
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+<section class="bg-white" >
+
+    <div class="container fadeInLeft" id="discovery" style="margin-top: -100px;">
+        <div class="row">
+            <div class="col-lg-12 mt-5">
+                <h1 class="ms-5 mt-5 text-warning"><img class="ms-5" src="https://cdn3d.iconscout.com/3d/premium/thumb/search-with-hand-6753233-5528861.png" style="height: 100px;width: 100px;" alt="">Discography As A Singer</h1>
+                <table class="table ms-5">
+                    <tr>
+                        <td>Year</td>
+                        <td>Single/Album</td>
+                        <td>Song</td>
+                        <td>Link To Full Song</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>Baarish Hogim</td>
+                        <td>Baarish Hogi</td>
+                        <td><a href="https://youtu.be/oREq4zT3DG0">https://youtu.be/oREq4zT3DG0</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Tere Bin Banjar</td>
+                        <td>Tere Bin Banjar</td>
+                        <td><a href="https://youtu.be/TMPhch7Vwn0">https://youtu.be/TMPhch7Vwn0</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Khushnuma</td>
+                        <td>Khushnuma</td>
+                        <td><a href="https://youtu.be/Krrr03QKABY">https://youtu.be/Krrr03QKABY</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Keh Do Na Pyaar Hai</td>
+                        <td>Keh Do Na Pyaar Hai</td>
+                        <td><a href="https://youtu.be/JAaUbuAjVXs">https://youtu.be/JAaUbuAjVXs</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Laut Aana Uss Jahaan Se</td>
+                        <td>Laut Aana Uss Jahaan Se</td>
+                        <td><a href="https://youtu.be/JAaUbuAjVXs">https://youtu.be/JAaUbuAjVXs</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Hey Ram</td>
+                        <td>Hey Ram</td>
+                        <td><a href="https://youtu.be/bMc_jrCMxDQ">https://youtu.be/bMc_jrCMxDQ</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Hey Ram (Duet Version)</td>
+                        <td>Hey Ram (Duet Version)</td>
+                        <td><a href="https://youtu.be/j26_41vGhEA">https://youtu.be/j26_41vGhEA</a></td>
+                    </tr>
+                </table>
+                
+            
+                
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="ms-5 mt-5 text-warning"><img class="ms-5" src="https://cdn3d.iconscout.com/3d/premium/thumb/search-with-hand-6753233-5528861.png" style="height: 100px;width: 100px;" alt="">Discography As A Composer</h1>
+                <table class="table ms-5">
+                    <tr>
+                        <td>Year</td>
+                        <td>Single/Album</td>
+                        <td>Song</td>
+                        <td>Co-Artist</td>
+                        <td>Link To Full Song</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>Baarish Hogim</td>
+                        <td>Baarish Hogi</td>
+                        <td>Someone Random</td>
+                        <td><a href="https://youtu.be/oREq4zT3DG0">https://youtu.be/oREq4zT3DG0</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Tere Bin Banjar</td>
+                        <td>Tere Bin Banjar</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/TMPhch7Vwn0">https://youtu.be/TMPhch7Vwn0</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Khushnuma</td>
+                        <td>Khushnuma</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/Krrr03QKABY">https://youtu.be/Krrr03QKABY</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Keh Do Na Pyaar Hai</td>
+                        <td>Keh Do Na Pyaar Hai</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/JAaUbuAjVXs">https://youtu.be/JAaUbuAjVXs</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Laut Aana Uss Jahaan Se</td>
+                        <td>Laut Aana Uss Jahaan Se</td>
+                         <td></td>
+                        <td><a href="https://youtu.be/JAaUbuAjVXs">https://youtu.be/JAaUbuAjVXs</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Hey Ram</td>
+                        <td>Hey Ram</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/bMc_jrCMxDQ">https://youtu.be/bMc_jrCMxDQ</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Hey Ram (Duet Version)</td>
+                        <td>Hey Ram (Duet Version)</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/j26_41vGhEA">https://youtu.be/j26_41vGhEA</a></td>
+                    </tr>
+                     <tr>
+                        <td>2017</td>
+                        <td>Hey Ram (Female Version)</td>
+                        <td>Hey Ram (Female Version)</td>
+                        <td>Shweta Pandit</td>
+                        <td><a href="https://youtu.be/_eMlt9YRV2U">https://youtu.be/_eMlt9YRV2U</a></td>
+                    </tr>
+                     <tr>
+                        <td>2017</td>
+                        <td>Hey Ram (Male Version)</td>
+                        <td>Hey Ram (Male Version)</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/bMc_jrCMxDQ">https://youtu.be/bMc_jrCMxDQ</a></td>
+                    </tr>
+                     <tr>
+                        <td>2017</td>
+                        <td>Rab Se Yahi</td>
+                        <td>Rab Se Yahi</td>
+                        <td>Ravi Mishra</td>
+                        <td><a href="https://youtu.be/EBqo5H61AvI">https://youtu.be/EBqo5H61AvI</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Sholon Se Bhara</td>
+                        <td>Sholon Se Bhara</td>
+                        <td>Suraj Jagan</td>
+                        <td><a href="https://youtu.be/JWA9-wDydNU">https://youtu.be/JWA9-wDydNU</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Tujhse Milke Ye Baawra (Female Version)</td>
+                        <td>Tujhse Milke Ye Baawra</td>
+                        <td>Anwesshaa</td>
+                        <td><a href="https://youtu.be/Za7oVaDcWjs">https://youtu.be/Za7oVaDcWjs</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Tujhse Milke Ye Baawra (Male Version)</td>
+                        <td>Tujhse Milke Ye Baawra</td>
+                        <td>Krishna Beura</td>
+                        <td><a href="https://youtu.be/aIR__HCzDvA">https://youtu.be/aIR__HCzDvA</a></td>
+                    </tr>
+                </table>
+                
+            
+                
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="ms-5 mt-5 text-warning"><img class="ms-5" src="https://cdn3d.iconscout.com/3d/premium/thumb/search-with-hand-6753233-5528861.png" style="height: 100px;width: 100px;" alt="">Discography As A Lyricist</h1>
+                <table class="table ms-5">
+                    <tr>
+                        <td>Year</td>
+                        <td>Single/Album</td>
+                        <td>Song</td>
+                        <td>Co-Artist</td>
+                        <td>Link To Full Song</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>Baarish Hogim</td>
+                        <td>Baarish Hogi</td>
+                        <td>Someone Random</td>
+                        <td><a href="https://youtu.be/oREq4zT3DG0">https://youtu.be/oREq4zT3DG0</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Tere Bin Banjar</td>
+                        <td>Tere Bin Banjar</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/TMPhch7Vwn0">https://youtu.be/TMPhch7Vwn0</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Khushnuma</td>
+                        <td>Khushnuma</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/Krrr03QKABY">https://youtu.be/Krrr03QKABY</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Keh Do Na Pyaar Hai</td>
+                        <td>Keh Do Na Pyaar Hai</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/JAaUbuAjVXs">https://youtu.be/JAaUbuAjVXs</a></td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Laut Aana Uss Jahaan Se</td>
+                        <td>Laut Aana Uss Jahaan Se</td>
+                         <td></td>
+                        <td><a href="https://youtu.be/JAaUbuAjVXs">https://youtu.be/JAaUbuAjVXs</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Hey Ram</td>
+                        <td>Hey Ram</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/bMc_jrCMxDQ">https://youtu.be/bMc_jrCMxDQ</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Hey Ram (Duet Version)</td>
+                        <td>Hey Ram (Duet Version)</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/j26_41vGhEA">https://youtu.be/j26_41vGhEA</a></td>
+                    </tr>
+                     <tr>
+                        <td>2017</td>
+                        <td>Hey Ram (Female Version)</td>
+                        <td>Hey Ram (Female Version)</td>
+                        <td>Shweta Pandit</td>
+                        <td><a href="https://youtu.be/_eMlt9YRV2U">https://youtu.be/_eMlt9YRV2U</a></td>
+                    </tr>
+                     <tr>
+                        <td>2017</td>
+                        <td>Hey Ram (Male Version)</td>
+                        <td>Hey Ram (Male Version)</td>
+                        <td></td>
+                        <td><a href="https://youtu.be/bMc_jrCMxDQ">https://youtu.be/bMc_jrCMxDQ</a></td>
+                    </tr>
+                     <tr>
+                        <td>2017</td>
+                        <td>Rab Se Yahi</td>
+                        <td>Rab Se Yahi</td>
+                        <td>Ravi Mishra</td>
+                        <td><a href="https://youtu.be/EBqo5H61AvI">https://youtu.be/EBqo5H61AvI</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Sholon Se Bhara</td>
+                        <td>Sholon Se Bhara</td>
+                        <td>Suraj Jagan</td>
+                        <td><a href="https://youtu.be/JWA9-wDydNU">https://youtu.be/JWA9-wDydNU</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Tujhse Milke Ye Baawra (Female Version)</td>
+                        <td>Tujhse Milke Ye Baawra</td>
+                        <td>Anwesshaa</td>
+                        <td><a href="https://youtu.be/Za7oVaDcWjs">https://youtu.be/Za7oVaDcWjs</a></td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Tujhse Milke Ye Baawra (Male Version)</td>
+                        <td>Tujhse Milke Ye Baawra</td>
+                        <td>Krishna Beura</td>
+                        <td><a href="https://youtu.be/aIR__HCzDvA">https://youtu.be/aIR__HCzDvA</a></td>
+                    </tr>
+                </table>
+                
+            
+                
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="Humanitarian">
+        <div class="row">
+            <div class="col-lg-12 mt-5">
+                <h1 class="ms-5 mt-5 mb-5 text-warning"><img class="ms-5" src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_1/v1623982145/ogdensdorg/uareyug40nkbdemtobmq/icon-shelter.png" style="height: 100px;width: 100px;" alt="">Humanitarian Work</h1>
+                <p class="ms-5 text-dark" style="font-size:18px ;">
+                    The Moto Of His Academy Is Not Just To Make Money As He Welcomes All, Who Even Can’t Afford The Fees. As He Believes Education’s Right Is For All & Financial Status Is A Gift Of Almighty, For No One Money Should Become An Hurdle. With Easy Verification Steps Like Salary Sleep, Bank Statement Of Last 6 Months & Aadhaar. Everyone Who Can’t Afford The Fees Are Most Welcome To SoulFul Musik Academy.</p>
+                
+            
+                
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="Personal">
+        <div class="row">
+            <div class="col-lg-12 mt-5">
+                <h1 class="ms-5 mt-5 mb-5 text-warning"><img class="ms-5" src="https://www.theboldmusician.com/wp-content/uploads/2021/09/The-Bold-Musician-logo-2.png" style="height: 100px;width: 100px;" alt="">Musical Career
+                </h1>
+                <p class="ms-5 text-dark" style="font-size:18px ;">
+                    He Was Here Just To Be A Singer, But With Almighty’s Deed He Was Blessed With Add On Skills To Write & Compose Songs & Started Singing & Writing Many Songs From 2011 Onwards.<br><br>At The Initial Days In Mumbai His Vocal’s Were Not That Up to The Mark To Do Playback Singing, His Guru Guided Him That He Can Be A Composer & Lyricist If His Composed Songs & Lyrics Will Sung Well Known Singer. Shreyash Kept On Working On Improving His Singing Skills & Along With That He Started Writing & Composing Songs & Started Recording Scratch Versions Of His Composed Songs Which He Can Make Other Singers Listen To It & Ask Them To Sing His Song.<br><br>He Contacted All Most Everyone Through Facebook Via Message, He Also Had A Conversation With Arijit Singh In 2013 Where He Had Talked To Him About His Success, He Owe His Career’s Success To Hard-work Or Almighty.<br><br>His Answer Gave Him Strong Belief On Working Hard & Almighty. He Initiated His Composition Topic, But Arijit Couldn’t Reply To It Because Of His Busy Schedules & Tons Of Other Messages. He Also Had A Conversation With Abhijeet Sawant Where Abhijeet Loved Shreyash’s Composition Tere Bin Banjar But That Conversation Also Didn’t Work Same Went With Monali Thakur & Many Others.<br><br>Finally Krishna Beura Loved His Composition Tujhse Milke Ye Baawra & Agreed To Meet & Record The Song & This How A Small Town’s Boy Shreyash Shandiliya’s Very 1st Song Was Sung By Krishna Beura (The Voice Behind Shah Rukh Khan’s Chack De India’s Maula Mere Lele Meri Jaan, Aap Ki Kashish, Main Jahaan Rahoon, Chaska & Many Other Hits) & The Song Was Made in 2013 But Mohnish Behl Lyricist Of The Song Tu Jo Hai To Main Hoon Sung By Ankit Tiwari He Informed To Him Him Some Lyrical Error Which Took Another 1 & Half Year To Re Contact & Fix The Date With Krishna Beuraa & Later After That Shreyash Also Decided To Recorded Female Version Of The Same Song Which Happened With Anwesshaa (The Voice Of India Contestant & Voice Behind Salman Khan’s Jaltey Diye & Papon’s Benaam Si Khwaahishein From Coke Studio) Now Both Male & Female Version Was Ready With Him & He Started Meeting Directors & Producers, Actor’s From Bollywood Like, Amole Gupte (Writer Of Taare Zameen Par) Vikramaditya Motwane (Director Of Ranveer Singh’s & Sonakshi Sinha’s Lootera) Actor Manoj Kumar & Many Other. But None Of The Meetings Worked Successful & The Song Remained At Home In His Bag.
+                </p>
+                
+                <p class="ms-5 mt-3 text-dark">Thus He Came To Conclusion That Waiting For Someone To Give Him Break & Some Popular Company To Release His Song Would Really Take A Lot Of Months Or Years. So He Formed His Own Music Company Named As HS Musik Company Where He Released His 1st Song On 14th February, 2016 Followed By Sholon Se Bhara With Suraj Jagan, Hey Ram With Shweta Pandit ( Hey Ram Also Mark’s As Shreyash’s 1st Song As A Singer Followed By Laut Aana Uss Jahaan Se, Keh Do Na Pyaar Hai, Khushnuma, Tere Bin Banjar, Baarish Hogi & More.</p>
+
+               
+                
+
+            </div>
+        </div>
+    <div class="container" id="Personal>
+        <div class="row">
+            <div class="col-lg-12 mt-5">
+                <h1 class="ms-5 mt-5 mb-5 text-warning"><img class="ms-5" src="https://cdn-icons-png.flaticon.com/512/1576/1576463.png" style="height: 100px;width: 100px;" alt="">Personal Life
+                </h1>
+                <p class="ms-5 text-dark" style="font-size:18px ;">
+                    Apart From Being A Musician Shreyash Also Is A Youtuber & Loves Making Vlogs, Riding Bikes & Cars, Travelling, Road Trips (He Wish To Travel All India On Bike & Car Individually) Do Moto Vlog, Photography, Gamer, A Fan Of Super Mario & Racing Games Moto Gp, A Huge Gadget & Technology Freak, Movie & Series Buff, Foodie, Collected Spiritual Knowledge & Sharing With Other (Motivating People To Love There Life For Whatever They Have & Staying Thankful To Almighty For Whatever We All Are Blessed With & Forever A Shiv Bhakt.<br><br>
+                    U Can A Part Of His Personal Life By Connecting To His All YouTube Channels & It’s Social Media’s Page.
+                </p>
+                
+                <p class="ms-5 mt-3 text-dark"><b>#ShreyashShandiliyaLive</b> Shreyash Admires Singing All Genres Of The Song Let It Be Pandit Bhimsen Joshi Ji Or Yo Yo Honey Singh, He Respect Every Artist On This Globe & He Learns Everyday & Every Moment By Listening Varieties Of Songs & Singing A Song Everyday & Recording A Video Of Video OF It & Uploading It As #ShreyashShandiliyaLive He Also Believes That Live Singing & Playback Singing Is Entirely A Different World & Two Different Categories Of Singing. He Also Adds That He Have To Develop A Lot As A Singer Specially As A Live Performer & He Is Improving Gradually As Each & Every Effort Makes Us Better.<br><br>Shreyash, Have A Vision Of Singing 1 Live Song Every Day, At Least 1 Min Clip From Other Artist’s Profile. This Is Just To Keep Checking His Graph As A Performer & Keep Upgrading His Singing Patterns & Perfection On Pitch. You Can Do Search #ShreyashShandiliyaLive ON YouTube Or Subscribe To His Official Channel To Listen His 1 Live Singing Every day.</p>
+
+                <p class="ms-5 mt-3 text-dark"><b>Musician On Ride (My Moto Vlogging Profile)</b></p>
+
+                <p class="ms-5 mt-3 text-dark"><b>Youtube : https://www.youtube.com/channel/UCRruA15WB3OWHT8RFdajumQ<br>
+                    Facebook: https://www.facebook.com/MusicianOnRide<br>
+                    Twitter: https://twitter.com/musician_ride<br>
+                    Instagram:https://www.instagram.com/musicianonride/</b></p>
+
+                <p class="ms-5 mt-3 text-dark">Musician Gamer 21 (My Gaming Profile)</p>
+
+                <p class="ms-5 mt-3 text-dark"><b>Youtube : https://www.youtube.com/channel/UCIaN0cYj5v-6fYpu99Kd74A?disable_polymer=true<br>
+                    Facebook: https://www.facebook.com/MusicianGamer21/?modal=admin_todo_tour<br>
+                    Twitter: https://twitter.com/MusicianGamer2<br>
+                    Instagram: https://www.instagram.com/musiciangamer21/?hl=en</b></p>
+
+                    <h4 class="ms-5 mt-5  text-warning"><u style="color: orange;">#ShreyashShandiliyaPhotography</u></h4>
+                
+                    <p class="ms-5 text-dark">Shreyash Shandiliya Loves Photography Since Childhood Days He Does Nature, Travel, Wildlife& All Types Of Photoshoots.. Also You Can Check out His Photography On His Insta Handle @shreyashshandiliya & Also Follow The Hashtag #ShreyashShandiliyaPhotography On All Social Medias.<br><br>
+
+                        He loves Learning New Things & Utilising Every Second Of His Life In Doing Something Productive.<br><br>
+                        
+                        His Fav Game Is Chess, Carrom & Badminton.</p>
+                
+
+            </div>
+        </div>
+
+
+
+
+
+    <div class="container" id="impact"style="margin-top: -50px;">
+        <div class="row">
+            <div class="col-lg-12 mt-5">
+                <h1 class="ms-5 mt-5 mb-5 text-warning"><img class="ms-5" src="https://cdn-icons-png.flaticon.com/128/2666/2666535.png" style="height: 100px;width: 100px;" alt="">Impact & Recognition</h1>
+                <h4 class="ms-5 mt-1  text-warning"><u style="color: orange;">Arijit Singh</u></h4>
+                
+                <p class="ms-5 text-dark">Shreyash Was Not A Believer Of Almighty At His Early Age Being A Teenager, Everyone Have Had Some Misconception Of Life. But Soon After An Incidence Which Happened In His Life & Brought Him Mumbai In The Mid Of His 10th Grade Schooling & Migrating To Mumbai Being A Teenager. He Slowly Started Understanding Life, Spirituality & An Artist Is Made With Destiny’s Role & A Tons Of Hard Work.</p>
+
+                <p class="ms-5 mt-1 text-dark">The Question Which Shreyash Asked To Arijit Singh Was</p>
+
+                <p class="ms-5 mt-3 text-dark">“What Is Required To Be Successful, Talent Or Luck ?”</p>
+
+                <p class="ms-5 mt-3 text-dark">& Arijit Singh Answered & Guided Young Shreyash Shandiliya With A Magical Answer, That AllThe Aspiring Musicians Should Should Follow, & That Was.. Hard Work</p>
+
+                <p class="ms-5 mt-3 text-dark">Loads & Loads Of Hard Work</p>
+
+                <p class="ms-5 mb-3 text-dark">Work & Don’t Think Of The Result. Success Will Come With A Strength That Will Make<br><br>You Victorious. & The Most Important Line Find The God In You.<br><br>& The Second Question Which Shreyash Asked Arijit Was.<br><br>“You Give The Credit Of Your Success To Your Musical Work & Skills Or Almighty ?”<br><br>Arijit Answered : “Almighty”</p>
+                <p class="ms-5 mb-3 text-dark">Arijit’s This Sentence Added A Strong Impact In Shreyash’s Thought That Destiny & Almighty’s Blessings Is What Makes Not Just An Artist, But This Whole World Is Almighty’s Creation. Shreyash Is Now A Very Strong Believer Of MAHADEV & His Belief Is, He Is Nothing, It’s Just Almighty’s Blessings.</p>
+
+                <h4 class="ms-5 mt-1  text-warning"><u style="color: orange;">Kalyanji Anand Ji</u></h4>
+                
+                <p class="ms-5 mb-3 text-dark">AnandJi In An Event In South Mumbai Where Shreyash Was Invited As A Judge, Praised His Composition & Guided With Some Tips Being A Legendary Composer Himself & Blessed Him With His Son Viju Shah Who Is Known For His Smash Hit Tracks From The Movie Gupt Starring Kajol & Bobby Deol. Kalyanji & Anand Ji’s Hits As Hundreds Of Number Few Of The Evergreen Songs Of Kalyanji-Anandji Includes Arrey Deewano, Kya Khoob Lagti Ho, Apni To Jaisey Taisey, Ye Meera Dil Yaar Ka Deewana & Many More…</p>
+
+                <h4 class="ms-5 mt-1 mb-3  text-warning"><u style="color: orange;">Krishna Beura</u></h4>
+                
+                <p class="ms-5 text-dark">Krishna Beura Totally Loved His Composition “Tujhse Milke Ye Baawra” & Said Him Soon After Listening The Song, That It’s A Brilliant Song & He Is Ready To Do It. Krishna Beura’s Last Hit Was Mera Inteqaam From Rajkumar Rao’s Shaadi Mein Zarur Aana Composed By Anand Raj Anand. Krishna Beura Have Song For All The Leading Composers Like Shankar-Ehsaan-Loy, Vishal-Shekhar, Sajid-Wajid, Ajay-Atul, Himesh Reshammiya, Anu Mallik & Many More.</p>
+                
+                <h4 class="ms-5 mt-1 mb-3  text-warning"><u style="color: orange;">Suraj Jagan</u></h4>
+                
+                <p class="ms-5 text-dark">Suraj Jagan Thoroughly Loved Shreyash’s Hard Rock Song “Shlon Se Bhara” That He Came All The Way From Goa To Sing This Song. Suraj Jagan Said “Even Though I Was Not Very Confident About Singing Shreyash’s Song, But Shreyash Faith & Amazing Direction Made Him Do This Song. Sholon Se Bhara Marks As The 1st Rock Song. Suraj Jagan Is Know For “Give Me Some Sunshine” From Aamir Khan’s 3 Idiots, Also Sadka Kiya From I Hate Luv Storys. Suraj Also Have Done A Camio Appearance In The Movie Hunterrr With Radhika Aapte & He Have Also Acted In Farhan Akhtar’s Rock On The Song Zehriley, Which Is Sung By Himself.</p>
+                <h4 class="ms-5 mt-1 mb-3  text-warning"><u style="color: orange;">Shweta Pandit</u></h4>
+                
+                <p class="ms-5 text-dark">Shweta Pandit’s Sentence During The Recording Session Was “Such Spiritual Thoughts Are Rarely Found In Today’s World. Hey Ram Also Marks As The 1st Song As A Singer. Shweta Pandit’s Last Classic Hit Was From Alia Bhatt’s Highway, Composed By AR Rahman.</p>
+
+                <h4 class="ms-5 mt-1 mb-3  text-warning"><u style="color: orange;">Anwesshaa</u></h4>
+                
+                <p class="ms-5 text-dark">Anwesshaa Just Loved The Composition & The Soul Jazz Musical Arrangement Of The Song. She Added An Amazing Soul To The 1st Official Composition Of Shreyash. She Also Marks As The 1st Female To Sing Shreyash’s Song. Anwesshaa Is Know For Voice Of India</p>
+                <h4 class="ms-5 mt-1 mb-3  text-warning"><u style="color: orange;">Abhijeet Bhattacharya</u></h4>
+                
+                <p class="ms-5 text-dark">Shreyash Met Abhijeet Bhattacharya With His Re Created Version Of Hame Tumse Pyaar Kitna, Abhijeet Da Loved His Composition But Said Him That He Would Not Want Shreyash To Spend The Money, Being An Independent Musician. Abhijeet Da Asked Shreyash To Find & Approach Some Producer & Then He Would Sing It. Shreyash Have Now Planed To Make The Song Release Not As Re Created Song. He Will Released It As The Song Is As “Har Manzar Keh Raha Hai”.</p>
+
+                <h4 class="ms-5 mt-1 mb-3  text-warning"><u style="color: orange;">Abhijit Sawant</u></h4>
+                
+                <p class="ms-5 text-dark">Shreyash Offered His Song Tere Bin Banjar To Abhijeet Sawant, He Loved The Song As Well But Due To Re Communication Gap This Song Didn’t Happen With Abhijit, Shreyash Is Planing Re Relase The Song With Shankar Mahadevan & Also Himself As A Vocalist In Redux Version Of It. Abhijit Sawant Is The 1st Indian Idol Of Our Country He Also Have Sung Mar Jawaan Mit Jawaa From Emraan Hashmi, Sonu Sood & Tanushree Dutta’s Aashiq Banaya Aapney.</p>
+
+                <h4 class="ms-5 mt-1 mb-3  text-warning"><u style="color: orange;">Abhijit Sawant</u></h4>
+                
+                <p class="ms-5 text-dark">Shreyash Offered His Song Tere Bin Banjar To Abhijeet Sawant, He Loved The Song As Well But Due To Re Communication Gap This Song Didn’t Happen With Abhijit, Shreyash Is Planing Re Relase The Song With Shankar Mahadevan & Also Himself As A Vocalist In Redux Version Of It. Abhijit Sawant Is The 1st Indian Idol Of Our Country He Also Have Sung Mar Jawaan Mit Jawaa From Emraan Hashmi, Sonu Sood & Tanushree Dutta’s Aashiq Banaya Aapney.</p>
+                <h4 class="ms-5 mt-1 mb-3  text-warning"><u style="color: orange;">Manoj Kumar</u></h4>
+                
+                <p class="ms-5 text-dark">Shreyash’s Dad Mr Sujit Kumar Tiwary Arranged Him A Meeting With Legendary Actor Manoj Kumar As One Of His Staff Was A Neigbour Of Shreyash’s Native Place. Manoj Kumar Ji Was Not Very Active Due To His Health Issue & Also Becoz Of His Age. He Shared Some Stories With Shreyash & His Dad That How Some Of The Popular Artist Have Come Up From Singing On Street In His Time & Also Asked Shreyash To Begin Singing Here & There Everywhere. Also Manoj Kumar Ji Gave Him The Contact Of Uttam Singh (Music Director Of Sunny Deol’s Film Gaddar-Ek Prem Katha) Ji To Meet Him & Get Some More Tips In Those Learning Phase Of Mr Shreyash Shandiliya. Manoj Kumar Ji Is A Legendary Actor Who Have Some Numerous Hits In His Account. His One Of The Movie’s Song “Lag Ja Gale” Is Very Well Know By Today’s Generation As Well.</p>
+
+                <h4 class="ms-5 mt-1 mb-3  text-warning"><u style="color: orange;">Amit Tandon</u></h4>
+                
+                <p class="ms-5 text-dark">Amit Tandon Is An Indian Television Actor & Singer & The 1st Celebrity Student Of SoulFul Musik Academy, Whom Shreyash Have Given The Guitar Lessons Personally. Amit Tandon Praised His Compositions Skills & He Also Adored Shreyash’s Skills Of Training Patiently. Amit Tandon Recently Also Did A Cameo IN Creature 3D Which Has Bipasa Basu In The Lead Roles. Amit Was Also An Indian Idol Contestant With Neha Kakkar & Others..</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container" id="achievements"style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="ms-5 mt-5 mb-5 text-warning"><img class="ms-5" src="https://cdn-icons-png.flaticon.com/512/1312/1312197.png" style="height: 100px;width: 100px;" alt="">Achievements & Awards</h1>
+                <p class="ms-5 text-dark" style="font-size:18px ;">
+               Self-Collaborating With Others Being An Outsider From Bihar & Specially In City Like Mumbai If You Don’t Have Any Connection With Anyone From Bollywood. Beginning The Career As A Composer With Well Know Bollywood Artist Like Krishna Beura, Suraj Jagan, Anwesshaa, Shweta Pandit, (Who Have Done Playback For Bollywood Super Stars Like Salman Khan, Shah Rukh Khan, Aamir Khan, Akshay Kumar, Ajay Devgan, Sanjay Dutt, Shahid Kapoor Emraan Hashmi & Many Others. This Is Definitely An Achievement, Especially When You Begin From Banka District From The North Bihar Part OF India.</p>
+                
+                <p class="ms-5 text-dark">Forming Company HS Musik Company No Musician Is Know Without Music Company, So Music Company Plays A Soul’s Role In Every Artist’s Life, Thus Shreyash Build A Legacy For Rest Of Upcoming Musician In Present & Coming Future & Music School, That Is No One Can Even Think Of Being A Singer, Composer Or An Instrument Player Without Learning Music, Thus SoulFul Musik Academy & HS Musik Company Is An Asset For All The Music Admirers Specially Those Who Can’t Afford Fees To Learn Music & Those Whose Talents Are Hidden In Some Part Of This Globe They Are All Welcome To Showcase Their Talent To Us. Let Us Make 1 World With One Music & Billions Of Musical Imaginations.</p>
+                <h4 class="ms-5 mt-1  text-warning"><u style="color: orange;">SoulFul Musik Academy’s Awards</u></h4>
+                <p class="ms-5 text-dark">Three Best Rate Rated Music School In Mumbai</p>
+                <h4 class="ms-5 mt-1  text-warning"><u style="color: orange;">Nominated:</u></h4>
+                <p class="ms-5 text-dark">India's Signature Brands 2020</p>
+                <p class="ms-5 text-dark">APS Media Award By 2018</p>
+                <p class="ms-5 text-dark">India 5000 Best MSME Awards 2018</p>
+                <p class="ms-5 text-dark">Global Icon Awards 2017</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container" id="Vision"style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="ms-5 mt-5 mb-5 text-warning"><img class="ms-5" src="https://icon-library.com/images/mission-icon-png/mission-icon-png-16.jpg" style="height: 100px;width: 100px;" alt="">Vision / Purpose Of Life</h1>
+                <p class="ms-5 text-dark" style="font-size:18px ;">
+                    As A Musician Shreyash Shandiliya Wants To Keep Making, Writing, Singing & Releasing Songs Till He Die & Reach To All Music Lovers Across The Globe. Also The Main Purpose Why He Began Vlogging Is To Spread A Message To All Existing Mankind That “We Should Be Thankful To Almighty For Whatever We Have In Our Life” & We Should Keep On Working Hard In Making Our Skills Better Than Yesterday, To Meet & Achieve Our Goal.</p>
+                
+                <p class="ms-5 mt-3 text-dark">Shreyash Believes That Nobody Is & Can Be A Master In Any Field. At Some Point We All Have Someone Above Us, Through Which We Should Learn To Keep Moving Forward, Without Having Any Imagination Of A Thought That We Are Something.</p>
+
+                <p class="ms-5 mt-3 text-dark">We Were Nothing & We Will Be Nothing Infront Of This Cosmos & Beautiful Creation Of Almighty. We All Have A Validity In Our Life, Doesn’t Matter Short Or Long. The Main Thing Is We Should Keep On Working In Improving & Making Our self Good & Better Than Last Time. Shreyash Believes He Is Still A Student & A Learner In Music & He Still Have To Learn A Lot Of Things.</p>
+                <p class="ms-5 mt-3 text-dark">Plenty Of Knowledge To Gain, On Which He Is Working Being A Better Musician, Composer, Singer, Lyricist, Vlogger, Moto Vlogger, Gamer, Photographer, Spiritual Person & A Better Human Being Who Can Help This Whole World In Making This World & Everyone Away From Negativity & Get Into Creativity & Art Of Thanking Every Breathe.</p>
+
+                <p class="ms-5 mt-3 text-dark">Through SoulFul Musik Academy He Want To Educate Everyone Who Come Across In His Life With A Loyal Desire To Learn Music & Make It Available Globally For All. & Through HS Musik Company He Will Be Coming Up With Hundreds Of His Originals As A Composer, Singer & Lyricist & Also He Have A Plan To Make A Collaboration With All Bollywood Musicians & Artists & International Musicians As Well, & Also Will Launch All The Talented Artist Those Who Come Across In His Life. Also To Train & Make Every Budding Artist Into A True Musician & An Artist.</p>
+
+                <p class="ms-5 mt-3 text-dark">He Strongly Believes That These All Things Can Happen Only If GOD Will Grant Him The Access & Also With You The Soul Who Is Reading This Here On The Website. Without Your Support It Won’t Be Possible. So, This Is For Only You Do Listen My Music & Share Your Point Of Views & Also Ask Your All Friends & Family To Do The Same. Let’s Make A Family Of 7 Billion People.</p>
+
+                <p class="ms-5 text-dark">One World, One Thought, One Life & The Same End For All Of Us. So Come Be A Part Of One World’s Family.</p>
+
+                
+
+            </div>
+        </div>
+    </div>
+    
+
+    </div>
+
+          <section class="bg-light">
+                <div class="container">
+                    <div class="cols-1">
+
+                        <div class="widget-column-1">
+
+                            <div class="ftr_textlogo">
+                                <a href="http://gracethemesdemo.com/music-club/">
+                                    <h3 class="text-dark">Shreyash Shandiliya HS Music Academy</h3>
+                                </a>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <h3 class="text-dark">External Links
+                    </h3>
+                    <h3 class="text-dark">Do Listen & Follow Shreyash Shandiliya On All The Online Music Streaming Platforms</h3>
+                <h3><a
+                        href="https://gaana.com/artist/shreyash-shandiliya?autoplay=true"><img src="https://logodix.com/logo/661504.png" style="height:30px;width:200px" alt=""></a></h3>
+                        <h3><a href="https://www.jiosaavn.com/artist/shreyash-shandiliya/T5n7F394emY"><img src="https://miro.medium.com/max/2400/0*lIh0O5DuES-g5KsX.png" style="height:40px;width:160px" alt=""></a></h3>
+                    <h3><a href="https://itunes.apple.com/us/artist/shreyash-shandiliya/1211856473"><img src="https://www.bionictechreviews.com/static/images/apple/apple-music-logo.png" style="height:50px;width:160px" alt=""></a></h3>
+                    <!--<h3><a href="https://open.spotify.com/artist/1GhbBztYcJ7dNQ5XdBVwac"><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" style="height:40px;width:200px" alt=""></a></h3>-->
+                    <!--<h3><a href="https://play.google.com/store/search?q=shreyash%20shandiliya"><img src="https://logos-world.net/wp-content/uploads/2020/11/Google-Play-Logo.png" style="height:80px;width:100px" alt=""></a></h3>-->
+                    <h3><a href="https://www.hungama.com/artist/shreyash-shandiliya/170360973/"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Hungama_logo.png" style="height: 30px;width:200px" alt=""></a></h3>
+
+                    <h3><a href="https://soundcloud.com/shreyash-shandiliya"><img src="https://pngroyale.com/wp-content/uploads/2021/11/Download-soundcloud-logo-soundcloud-and-dubset-partner-develop-next-generatio.png" style="height: 100px;width: 100px;" alt=""></a>
+                </h3>
+                    <h3><a href="https://music.amazon.in/artists/B06XD9564X?tab=CATALOG"><img src="https://cutewallpaper.org/24/amazon-music-logo-png/apple-music-png-logo-music-logo-music-app-music-logo-design.png" style="height: 100px;width: 100px;" alt=""></a></h3>
+                    <div class="clear"></div>
+                </div>
+                </div>
+            </section>
+
+
+            <div id="footer-wrapper">
+                <div class="container footer">
+
+
+
+                    <!-- =============================== Column One - 1 =================================== -->
+                
+                <!--end .container-->
+
+                <div class="copyright-wrapper">
+                    <div class="container">
+                        <div class="design-by">Copyright 2020, Shreyash Shandiliya, All Rights Reserved. Developed and
+                            Managed by FoxyMediaHouse <a href="https://gracethemes.com/" target="_blank"></a></div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="back-top" style="display: none;">
+                <a title="Top of Page" href="#top"><span></span></a>
+            </div>
+           
+        </div>
+</body>
+
+</html>

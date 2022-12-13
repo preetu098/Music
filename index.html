@@ -1,0 +1,1873 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+    <title>shreyash-shandiliya</title>
+    
+ 
+    <link rel="stylesheet" id="wp-block-library-css"
+        href="http://gracethemesdemo.com/music-club/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2"
+        type="text/css" media="all">
+    <style id="global-styles-inline-css" type="text/css">
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+            --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+            --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+            --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+            --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+            --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+            --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+            --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+    </style>
+    
+    
+
+
+
+    <link rel="stylesheet" id="music-club-pro-basic-style-css"
+        href="http://gracethemesdemo.com/music-club/wp-content/themes/music-club-pro/style.css?ver=6.0.2"
+        type="text/css" media="all">
+
+
+   
+
+    <script>
+        jQuery(window).bind('scroll', function () {
+            var wwd = jQuery(window).width();
+            if (wwd > 981) {
+                var navHeight = jQuery(window).height() - 575;
+                if (jQuery(window).scrollTop() > navHeight) {
+                    jQuery(".site-header").addClass('fixed');
+                } else {
+                    jQuery(".site-header").removeClass('fixed');
+                }
+            }
+        });
+
+
+        jQuery(window).load(function () {
+            jQuery('#slider').nivoSlider({
+                effect: 'random', //sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft, fold, fade, random, slideInRight, slideInLeft, boxRandom, boxRain, boxRainReverse, boxRainGrow, boxRainGrowReverse
+                animSpeed: 500,
+                pauseTime: 4000,
+                directionNav: true,
+                controlNav: true,
+                pauseOnHover: false,
+            });
+        });
+
+
+        jQuery(window).load(function () {
+            jQuery('.owl-carousel').owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 8000,
+                margin: 0,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+
+        });
+
+
+        jQuery(document).ready(function () {
+
+            jQuery('.link').on('click', function (event) {
+                var $this = jQuery(this);
+                if ($this.hasClass('clicked')) {
+                    $this.removeAttr('style').removeClass('clicked');
+                } else {
+                    $this.css('background', '#7fc242').addClass('clicked');
+                }
+            });
+
+        });
+    </script>
+    <style>
+        body,
+        .contact-form-section .address,
+        .accordion-box .acc-content {
+            color: #959595;
+        }
+
+        body {
+            font-family: Assistant;
+            font-size: 16px;
+        }
+
+        h2.section_title,
+        h3.section_title {
+            font-family: Open Sans;
+            font-size: 48px;
+            color: #ffffff;
+        }
+
+        .counter-column {
+            font-family: Open Sans;
+        }
+
+       
+        .footer h5 {
+            color: #ffffff;
+            font-size: 22px;
+        }
+
+        .design-by {
+            color: #ffffff
+        }
+
+        #topvideo_player {
+            background-color: #000000;
+        }
+
+        #aboutus_section {
+            background-color: #0e0e0e;
+        }
+
+        #servicespanel {
+            background-color: #1c1c1c;
+        }
+
+        .button,
+        #commentform input#submit,
+        input.search-submit,
+        .post-password-form input[type=submit],
+        p.read-more a,
+        .pagination ul li span,
+        .pagination ul li a,
+        .headertop .right a,
+        .wpcf7 form input[type='submit'],
+        #sidebar .search-form input.search-submit {
+            color: #ffffff;
+        }
+
+        #commentform input#submit:hover,
+        input.search-submit:hover,
+        .post-password-form input[type=submit]:hover,
+        p.read-more a:hover,
+        .pagination ul li .current,
+        .pagination ul li a:hover,
+        .headertop .right a:hover,
+        .wpcf7 form input[type='submit']:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        a.morebutton {
+            color: #ffffff;
+        }
+
+        a.morebutton:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        aside.widget {
+            color: #ffffff;
+        }
+
+        h3.widget-title {
+            color: #ffffff;
+        }
+
+        #footer-wrapper {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        #footer-wrapper {
+            background: url(http://gracethemesdemo.com/music-club/wp-content/themes/music-club-pro/images/footerbgimage.jpg) no-repeat;
+            background-size: 100% 100% !important;
+        }
+
+        .contactdetail a {
+            color: #ffffff;
+        }
+
+        .nivo-controlNav a {
+            background-color: #ffffff
+        }
+
+        #sidebar ul li a {
+            color: #ffffff;
+        }
+
+        .nivo-caption h2 {
+            font-family: Roboto;
+            color: #ffffff;
+            font-size: 60px;
+        }
+
+        .nivo-caption p {
+            font-family: Assistant;
+            color: #ffffff;
+            font-size: 20px;
+        }
+
+        .copyright-wrapper a:hover {
+            color: #ffffff;
+        }
+
+        .toggle a {
+            color: #ffffff;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: Open Sans;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #ffffff;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        h4 {
+            font-size: 22px;
+            color: #ffffff;
+        }
+
+        h5 {
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+        h6 {
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        #footer-wrapper .social-icons a {
+            color: #ffffff;
+        }
+
+        ul.portfoliofilter li a {
+            color: #ffffff;
+        }
+
+        .holderwrap h5 {
+            color: #ffffff;
+        }
+
+        .holderwrap h5::after {
+            background-color: #ffffff;
+        }
+
+        #clienttestiminials .item {
+            color: #ffffff;
+        }
+
+        ul.recent-post li h6 a {
+            color: #ffffff;
+        }
+
+        .logo img {
+            height: 49px;
+        }
+
+        .logo h1 {
+            font-family: Kaushan Script;
+            color: #ffffff;
+            font-size: 39px
+        }
+
+        .tagline {
+            color: #5d5d5d;
+        }
+
+        .logo img {
+            height: 49px;
+        }
+
+        .sitenav ul li ul li {
+            border-color: #222222;
+        }
+
+        .sitenav ul {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px
+        }
+
+        .sitenav ul li a,
+        .sitenav ul li.current_page_item ul.sub-menu li a,
+        .sitenav ul li.current-menu-parent ul.sub-menu li a {
+            color: #ffffff;
+        }
+
+        .header-top .social-icons a {
+            color: #ffffff;
+        }
+
+        .header-top {
+            color: #ffffff;
+        }
+
+        .logonavigation,
+        .sitenav ul li:hover>ul,
+        .logo {
+            background-color: #000000;
+        }
+
+        .team_content_fixer {
+            background-color: rgba(118, 67, 210, 0.8);
+        }
+
+        #commentform input#submit,
+        .button,
+        input.search-submit,
+        .post-password-form input[type='submit'],
+        .wpcf7 form input[type='submit'],
+        #commentform input#submit:hover,
+        input.search-submit:hover,
+        .post-password-form input[type=submit]:hover,
+        .wpcf7 form input[type='submit']:hover,
+        p.read-more a,
+        .header-top .social-icons a:hover,
+        #topvideo_player .ai-wrap .ai-audio-control,
+        #topvideo_player .ai-wrap .ai-volume-bar.ai-volume-bar-active::before,
+        #topvideo_player .ai-wrap .ai-track-progress,
+        .released_list .owl-prev,
+        .released_list .owl-next,
+        .released_list .item,
+        .pagination ul li span,
+        .pagination ul li a,
+        .headertop .right a,
+        #sidebar .search-form input.search-submit,
+        .nivo-controlNav a.active,
+        .holderwrap,
+        .owl-controls .owl-dot.active,
+        p.read-more a:hover,
+        .pagination ul li .current,
+        .pagination ul li a:hover,
+        .headertop .right a:hover,
+        #footer-wrapper .social-icons a,
+        .toggle a,
+        .pagemore:hover,
+        .gradientbtn,
+        .newspostdate,
+        .news-box:hover .newsmorebtn,
+        #section7 .button:hover,
+        .blogrightsidebar .post-thumb,
+        .news-box .news-thumb,
+        .audio_album_list .audiothumbbx,
+        .bloggridlayout .post-thumb,
+        .woocommerce ul.products li.product a.add_to_cart_button:hover,
+        .nbs-flexisel-nav-left:hover,
+        .nbs-flexisel-nav-right:hover,
+        .woocommerce ul.products li.product:hover,
+        .teammember-list:hover .degination,
+        .woocommerce span.onsale,
+        .nivo-caption .button:hover,
+        #teampanel .owl-prev:hover,
+        #teampanel .owl-next:hover,
+        .moreicon .i {
+            background-color: #7643d2;
+        }
+    </style>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <style type="text/css">
+        @media screen and (max-width:900px) {
+            #logo {
+                width: 80px !important;
+                height: 30PX;
+            }
+        }
+
+        #logo {
+            width: 100px !important;
+            height: 60PX;
+        }
+
+        .card1 {
+            height: 200px;
+            width: 200px;
+            background-color: orange;
+            transform: rotate(45deg);
+            margin-top: 100px;
+            z-index: 2;
+            position: absolute;
+
+        }
+
+        .card2 {
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            transform: rotate(45deg);
+            margin-top: 50px;
+            z-index: 1;
+            position: absolute;
+
+        }
+    </style>
+
+</head>
+    <body id="top" class="home blog">
+        <div class="sitewrapper  siteinnerpage">
+
+            <div class="site-header">
+                <div class="container">
+                    <div class="header-top">
+
+                        <div class="right">
+                        
+                        </div>
+                        <div class="clear"></div>
+
+                    </div>
+                    <!--end header-top-->
+
+                    <div class="logonavigation">
+
+                        <div class="logo">
+                            <div class="site-branding-text">
+                                <a href="">
+                                    <img id="logo" class="img-fluid" src="shreyash-shandiliya.png" style="width: 150px;"
+                                        alt="">
+                                </a>
+
+                            </div>
+                        </div><!-- .logo -->
+
+                        <div class="header_right">
+                            <div class="toggle">
+                                <a class="toggleMenu" href="#" style="display: none;">
+                                    Menu
+                                </a>
+                            </div><!-- toggle -->
+
+                            <div class="sitenav">
+                                <div class="menu-primary-container">
+                                    <ul id="menu-primary" class="menu">
+                                        <li id="menu-item-782">
+                                            <a href="index.html" aria-current="page">Home</a>
+                                        </li>
+                                        <li id="menu-item-782">
+                                            <a href="contact.html" aria-current="page">Contact</a>
+                                        </li>
+                                        
+                                         <li id="menu-item-782">
+                                            <a href="pages.html" aria-current="page" target="_blank">Music</a>
+                                        </li>
+
+                                            <li id="menu-item-782">
+                                            <a href="bioGraphy.html" aria-current="page">Biography</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--.sitenav -->
+                        </div>
+                        <!--header_right-->
+
+                        <div class="clear"></div>
+                    </div><!-- .logonavigation -->
+                </div><!-- .container-->
+            </div><!-- .site-header -->
+
+    <style>
+        @media screen and (max-width:900px)
+        {
+            #profileimage
+            {
+            width: 200px!important;
+            height: 200px!important;
+            }
+            #contentGroup
+            {
+                max-width:300px!important;
+                font-size:10px!important;
+            }
+            #mydisplay
+            {
+                display:flex;
+            }
+            #headerLine1{
+                font-size:20px!important;
+            }
+            #headeline2{
+                font-size:17px!important;
+                line-height:1.2!important;
+            }
+        .vdolist
+        {
+            max-width:200px!important;
+            max-height:200px!important;
+        }
+        .mobileView
+        {
+            /*display:flex;*/
+        }
+        }
+    </style>
+
+
+
+
+
+
+
+            <section id="aboutus_section">
+                <div class="container">
+                    <div class="aboutus_wrap fadeInLeft" style="margin-top: 50px;" id="mydisplay">
+
+                        <div class="aboutus_imgcolumn">
+                            <div class="card bg-warning">
+                            <img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2022/8/31/w1200X800/sfl.jpeg" class="img-fluid" alt="" id="profileimage" style="height: 400px;" >
+                            </div>
+                            
+                        </div>
+                        <div class="aboutus_contentcolumn" id="contentGroup">
+
+                            <h3 id="headerLine1">Shreyash Shandiliya</h3>
+
+                            <h4 style="line-height: 1;" id="headeline2">Music Composer / Director / Instructor / Producer , Lyricist ,
+                                Singer , Musician , Record Producer , Sound Engineer & Owner , Founder & CEO : SoulFul Music
+                                Academy & HS Music Company
+                            </h4>
+                            <a class="gradientbtn"
+                                href="http://gracethemesdemo.com/music-club/2019/01/02/semper-mauris-vitae-hendrerit-erat/">Read
+                                More </a>
+
+
+                        </div>
+                        <div class="clear"></div>
+
+                    </div>
+                </div><!-- .container -->
+            </section><!-- #aboutus_section -->
+
+
+
+            <section id="servicespanel">
+                <div class="container">
+
+                    <h2 class="section_title">Our Services</h2>
+
+
+                    <div class="services_page_box fadeInRight" id="iconProfile">
+
+                        <div class="thumbbx"><a href="#"><img
+                                    src="http://gracethemesdemo.com/music-club/wp-content/themes/music-club-pro/images/services-image1.png"
+                                    alt=""></a></div>
+                        <h3><a href="#">Discography As A Singer
+    </a></h3>
+                        <p>Shreyash Plays A Lot Of Instrument, Sings, Knows Music Theory, Have Done Ear Training, Music Production, Mixing Mastering & He Believes </p> <a class="pagemore" href="#">Read More</a>
+
+
+                    </div>
+                    <div class="services_page_box fadeInRight"  id="iconProfile">
+
+                        <div class="thumbbx"><a href="#"><img
+                                    src="http://gracethemesdemo.com/music-club/wp-content/themes/music-club-pro/images/services-image2.png"
+                                    alt=""></a></div>
+                        <h3><a href="#">Discography As A Composer</a></h3>
+                        <p>They Are Definitely Good To Go Ahead With Ease. Shreyash Also Adds That There Can’t Be An End Or A Particular Course To BE A Musician.
+    </p> <a class="pagemore" href="#">Read More</a>
+
+
+                    </div>
+                    <div class="services_page_box last_column fadeInRight" id="iconProfile">
+
+                        <div class="thumbbx"><a href="#"><img
+                                    src="http://gracethemesdemo.com/music-club/wp-content/themes/music-club-pro/images/services-image3.png"
+                                    alt=""></a></div>
+                        <h3><a href="#">Discography As A Lyricist</a></h3>
+                        <p>hreyash Adds To His Statement, Playing Few Songs Without Understanding The Concept Of Music May Make You Bored After Sometime,</p> <a class="pagemore" href="#">Read More</a>
+
+
+                    </div>
+
+                    <div class="clear"></div>
+                </div><!-- .container -->
+            </section><!-- #servicespanel -->
+
+
+            <section
+                style="background-color:#000000; background-image:url('assets/images/guitar.png'); background-repeat:no-repeat; background-position: center top; background-attachment:fixed; background-size:cover;  "
+                id="section1" class="menu_page">
+                
+                
+                <div class="container">
+                    <div class="">
+                        <h2 class="section_title">Discography As A Singer
+                           
+                        </h2>
+                        <div class="our_event_list">
+
+         
+
+    <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2022</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/Maa .jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a href="https://youtu.be/nOhzrfzdTsg">Maa (Duet
+                                            Version)</a></div>
+                                    <div class="event_descbx">Maa </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Maa </span>
+                            </div>
+
+                           
+
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/nOhzrfzdTsg"
+                                    target="_blank">https://youtu.be/nOhzrfzdTsg</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+
+
+                        </div>
+
+
+ <div class="our_event_list">
+
+    <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2022</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/Kyun Barse Naina.jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a
+                                            href="https://youtu.be/fm6ByN7VP_E">Kyun Barse Naina </a></div>
+                                    <div class="event_descbx">Kyun Barse Naina | @Shreyash Shandiliya 
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Kyun Barse Naina</span>
+                            </div>
+
+                           
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/fm6ByN7VP_E"
+                                    target="_blank">https://youtu.be/fm6ByN7VP_E</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+
+
+                        </div>
+
+
+
+
+
+ <div class="our_event_list">
+
+                  
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2022</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/Shiv Tandav.jpeg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a
+                                            href="https://www.youtube.com/watch?v=FnvjYfmhVLg&list=PLSNfZiEeo5reUDl3fDEukA9yjv5OJAeXA">Shiv
+                                            Tandav Stotram</a></div>
+                                    <div class="event_descbx">Shiv Tandav Stotram | @Shreyash Shandiliya | HS Musik Company
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Shiv Tandav Stotram</span>
+                            </div>
+
+                          
+
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/FnvjYfmhVLg"
+                                    target="_blank">https://youtu.be/FnvjYfmhVLg</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+
+
+                        </div>
+
+    <!--first video done!-->
+    
+
+
+
+
+
+    <!--second video done!-->
+
+
+
+
+
+
+    <!--third video done!-->
+
+        <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2021</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/Every .jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a href="https://youtu.be/hZq5boUuh9Y">Every | Aanya Shine
+                                            Feat</a></div>
+                                    <div class="event_descbx">Every | Aanya Shine Feat </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Every | Aanya Shine Feat </span>
+                            </div>
+
+                        
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/hZq5boUuh9Y"
+                                    target="_blank">https://youtu.be/hZq5boUuh9Y</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+
+
+                        </div>
+
+
+
+    <!--fourth video done!-->
+
+
+    <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2021</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/Namaskartha Mantra Poster.jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a href="https://youtu.be/xHUXWvO0OQ4">Namaskaratha
+                                            Mantra</a></div>
+                                    <div class="event_descbx">Namaskaratha Mantra</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Namaskaratha Mantra</span>
+                            </div>
+
+                        
+
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/xHUXWvO0OQ4"
+                                    target="_blank">https://youtu.be/xHUXWvO0OQ4</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+
+
+                        </div>
+
+
+    <!--fifth video done!-->
+
+
+ <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2019</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/album1.jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a href="https://youtu.be/oREq4zT3DG0">Baarish Hogi</a></div>
+                                    <div class="event_descbx">Baarish Hogi</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Baarish Hogi</span>
+                            </div>
+
+                        
+
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/oREq4zT3DG0"
+                                    target="_blank">https://youtu.be/oREq4zT3DG0</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+
+
+                        </div>
+
+
+                        <!--    <div class="event_common event_date">-->
+                        <!--        <div class="day_month">-->
+                        <!--            <h4>2019</h4>-->
+                        <!--        </div>-->
+                        <!--    </div>-->
+
+                        <!--    <div class="event_common event_thumb_descbox clearfix">-->
+                        <!--        <div class="eventthumb">-->
+                        <!--            <img src="assets/images/album1.png">-->
+                        <!--        </div>-->
+                        <!--        <div class="title_desc_box">-->
+                        <!--            <div class="eventtexttitle"><a href="https://youtu.be/oREq4zT3DG0">Baarish Hogi</a>-->
+                        <!--            </div>-->
+                        <!--            <div class="event_descbx">Baarish Hogi | @Shreyash Shandiliya | HS Musik Company</div>-->
+                                    <!-- <div class="event_descbx"><a href="https://youtu.be/oREq4zT3DG0">https://youtu.be/oREq4zT3DG0</a></div> -->
+                        <!--        </div>-->
+                        <!--        <div class="clear"></div>-->
+                        <!--    </div>-->
+
+
+                        <!--    <div class="event_common event_location">-->
+                        <!--        <span> Baarish Hogi</span>-->
+                        <!--    </div>-->
+
+                          
+
+                        <!--    <div class="event_common event_buyticket">-->
+                        <!--        <a class="btnstyle2" href="https://youtu.be/oREq4zT3DG0"-->
+                        <!--            target="_blank"></a>-->
+
+                        <!--    </div>-->
+
+
+                        <!--    <div class="clear"></div>-->
+                        <!--</div>-->
+                        
+                        
+
+    <!--six video done!-->
+
+                        <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2018</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/Poster Tere Bin Banjar.jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a href="https://youtu.be/TMPhch7Vwn0">Tere Bin Banjar</a>
+                                    </div>
+                                    <div class="event_descbx">Tere Bin Banjar | @Shreyash Shandiliya | Full Audio | HS Musik
+                                        Company | Latest Hindi Song 2018</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span> Tere Bin Banjar</span>
+                            </div>
+
+                           
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/TMPhch7Vwn0"
+                                    target="_blank">https://youtu.be/TMPhch7Vwn0</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+                        </div>
+                        
+        
+    <!--seventh video done!-->
+
+                        <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2018</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/Khushnuma.jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a
+                                            href="https://www.youtube.com/watch?v=Krrr03QKABY">Khushnuma</a></div>
+                                    <div class="event_descbx">Khushnuma | Full Audio | Shreyash Shandiliya | HS Musik
+                                        Company | Latest Song 2018</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span></i> Khushnuma</span>
+                            </div>
+
+                            
+
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://www.youtube.com/watch?v=Krrr03QKABY"
+                                    target="_blank">https://youtu.be/Krrr03QKABY</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+                        </div>
+                        
+    <!--eight video done!-->
+
+
+
+
+    <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2018</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/itunes.jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a href="https://youtu.be/JAaUbuAjVXs">Keh Do Na Pyaar
+                                            Hai</a></div>
+                                    <div class="event_descbx">Keh Do Na Pyaar Hai | @Shreyash Shandiliya | Full Audio | HS
+                                        Musik Company | Love Song 2018</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Keh Do Na Pyaar Hai</span>
+                            </div>
+
+                            
+
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/JAaUbuAjVXs"
+                                    target="_blank">https://youtu.be/JAaUbuAjVXs</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+                        </div>
+                        <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2018</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/laut-aana.jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a href="https://youtu.be/kIMqf6dlQp8">Laut Aana Uss Jahaan
+                                            Se</a></div>
+                                    <div class="event_descbx">Laut Aana Uss Jahaan Se @Shreyash Shandiliya | Full Audio | HS
+                                        Musik Company | Love Song 2018</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Laut Aana Uss Jahaan Se </span>
+                            </div>
+
+                        
+
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/kIMqf6dlQp8"
+                                    target="_blank">https://youtu.be/kIMqf6dlQp8</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+                        </div>
+                        
+    <!--ninth video done!-->
+                    
+                    
+                        <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2018</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/heyram.jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a href="https://youtu.be/bMc_jrCMxDQ">Hey Ram</a></div>
+                                    <div class="event_descbx">KHey Ram | Full Audio | Shreyash Shandiliya | HS Musik Company
+                                        | Devotional Song 2017</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Hey Ram</span>
+                            </div>
+
+                          
+
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/bMc_jrCMxDQ"
+                                    target="_blank">https://youtu.be/bMc_jrCMxDQ</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+
+                        
+                    
+                        <div class="our_event_list">
+
+
+                            <div class="event_common event_date">
+                                <div class="day_month">
+                                    <h4>2017</h4>
+                                </div>
+                            </div>
+
+                            <div class="event_common event_thumb_descbox clearfix">
+                                <div class="eventthumb">
+                                    <img src="assets/images/Hey Ram _Duet Version_ (1).jpg">
+                                </div>
+                                <div class="title_desc_box">
+                                    <div class="eventtexttitle"><a href="https://youtu.be/j26_41vGhEA">Hey Ram (Duet
+                                            Version)</a></div>
+                                    <div class="event_descbx">Hey Ram | @Shreyash Shandiliya | @Shweta Pandit ~ Duet Version
+                                        | Full Audio | HS Musik Company</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="event_common event_location">
+                                <span>Hey Ram (Duet Version)</span>
+                            </div>
+
+
+                            <div class="event_common event_buyticket">
+                                <a class="btnstyle2" href="https://youtu.be/j26_41vGhEA"
+                                    target="_blank">https://youtu.be/j26_41vGhEA</a>
+
+                            </div>
+
+
+                            <div class="clear"></div>
+
+
+                        </div>
+
+
+
+
+                
+                </div><!-- container -->
+            </section>
+            <style>
+                @media screen and (min-width:400px)
+                {
+                      .audio_album_list 
+                      {
+                          /*height:20px!important;*/
+                          height:250px!important;
+                          
+                      }
+                      .audiothumbbx
+                      {
+                          height:150px!important;
+                          width:150px!important;
+                      }
+                }
+            </style>
+            <section style="background-color:#1c1c1c; " id="section2" class="menu_page">
+                <div class="container">
+                    <div class="">
+                        <h2 class="section_title">Audio Album</h2>
+                         <div class="audio_album_list">
+                            <div class="audiothumbbx"><img class="myimg" src="assets/images/Maa .jpg"><a href="card.html"><i
+                                        class="fas fa-music"></i></a></div>
+                            <h4><a href="card.html">Maa</a></h4>
+                            <span>2022</span>
+                            <div class="clear"></div>
+                        </div>
+                        
+                        <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/Kyun Barse Naina.jpg"><a href="https://youtu.be/fm6ByN7VP_E"><i
+                                        class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/fm6ByN7VP_E">Kyun Barse Naina</a></h4>
+                            <span>2022</span>
+                            <div class="clear"></div>
+                        </div>
+                       <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/Shiv Tandav.jpeg"><a href="https://youtu.be/FnvjYfmhVLg"><i
+                                        class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/FnvjYfmhVLg">Shiv Tandav</a></h4>
+                            <span>2022</span>
+                            <div class="clear"></div>
+                        </div>
+                        
+                        
+                        <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/Every .jpg"><a href="https://youtu.be/hZq5boUuh9Y"><i
+                                        class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/hZq5boUuh9Y">Every</a></h4>
+                            <span>2022</span>
+                            <div class="clear"></div>
+                        </div>
+                        
+                        
+                        
+                        <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/Namaskartha Mantra Poster.jpg"><a
+                                    href="https://youtu.be/xHUXWvO0OQ4"><i class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/xHUXWvO0OQ4">Namaskartha</a></h4>
+                            <span>2021</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/Poster Tere Bin Banjar.jpg"><a
+                                    href="https://youtu.be/TMPhch7Vwn0"><i class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/TMPhch7Vwn0">Tere Bin Banjar</a></h4>
+                            <span>2018</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/itunes.jpg"><a href="https://youtu.be/JAaUbuAjVXs"><i
+                                        class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/JAaUbuAjVXs">Keh Do Na Pyaar Hai</a></h4>
+                            <span>2018</span>
+                            <div class="clear"></div>
+                        </div>
+                    <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/Hey Ram _Female Version_.jpeg"><a
+                                    href="https://youtu.be/_eMlt9YRV2U"><i class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/_eMlt9YRV2U">Hey Ram (Female Version)</a></h4>
+                            <span>2018</span>
+                            <div class="clear"></div>
+                        </div>
+                    <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/laut-aana.jpg"><a href="https://youtu.be/JAaUbuAjVXs"><i
+                                        class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/JAaUbuAjVXs">Laut Aana Uss Jahaan Se</a></h4>
+                            <span>2018</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/Tujhse Milke Ye Baawra _Male Version_.jpg"><a
+                                    href="https://youtu.be/Za7oVaDcWjs"><i class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/Za7oVaDcWjs">Tujhse Milke Ye Baawra </a>
+                            </h4>
+                            <span>2017</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/ssb.jpg"><a href="https://youtu.be/JWA9-wDydNU"><i
+                                        class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/JWA9-wDydNU/">Sholon Se Bhara</a></h4>
+                            <span>2017</span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="audio_album_list">
+                            <div class="audiothumbbx"><img src="assets/images/Poster-Shreyash.jpg"><a
+                                    href="https://youtu.be/EBqo5H61AvI"><i class="fas fa-music"></i></a></div>
+                            <h4><a href="https://youtu.be/EBqo5H61AvI">Rab Se Yahi</a></h4>
+                            <span>2017</span>
+                            <div class="clear"></div>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                        <div class="clear"></div>
+
+
+
+
+                    </div><!-- .end section class -->
+                    <div class="clear"></div>
+                </div><!-- container -->
+            </section>
+            <section
+                style="background-color:#111111; background-image:url('assets/images/smg.png'); background-repeat:no-repeat; background-position: right center; background-attachment:fixed;  "
+                id="section3" class="menu_page">
+                <div class="container">
+                    <div class="">
+                        <h2 class="section_title">featured Videos</h2>
+                        <p>
+                        </p>
+                        <div class="mobileView">
+                            <center>
+                        <div class="vdolist">
+                        
+                            <img src="assets/images/feat1.png" alt="" class="img-thumbnail">
+                        
+                            <a href="" class="youtube-link" youtubeid="M11SvDtPBhA">
+                                <div class="videocontent">
+
+
+                                </div>
+                            </a>
+                        </div>
+                    
+                        
+                        <div class="vdolist">
+                            <img src="assets/images/feat3.png" alt="" class="img-thumbnail">
+                            <a href="" class="youtube-link" youtubeid="z3zdIHDTbg0">
+                                <div class="videocontent">
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="vdolist">
+                            <img src="assets/images/feat4.png" alt="" class="img-thumbnail">
+                            <a href="" class="youtube-link" youtubeid="3E78T8h5EhA">
+                                <div class="videocontent">
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="vdolist">
+                            <img src="assets/images/feat5.png" alt="" class="img-thumbnail">
+                            <a href="" class="youtube-link" youtubeid="i-x3g0OIaJ0">
+                                <div class="videocontent">
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="vdolist">
+                            <img src="assets/images/a1.jpg" alt="" style="height: 200px;width: 400px;">
+                            <a href="" class="youtube-link" youtubeid="FDs6dADBmI0">
+                                <div class="videocontent">
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="vdolist">
+                            <img src="assets/images/ab.jpg" alt="" style="height: 200px;width: 400px;">
+                            <a href="" class="youtube-link" youtubeid="vttyBvJieuY">
+                                <div class="videocontent">
+
+                                </div>
+                            </a>
+                        </div>
+                            </center>
+        </div>
+    
+                        <p></p>
+                    </div><!-- .end section class -->
+                    <div class="clear"></div>
+                </div><!-- container -->
+            </section>
+
+            <section
+                style="background-color:#111111; background-image:url('assets/images/banner.jpg'); background-repeat:no-repeat; background-position: center top; background-attachment:fixed; background-size:cover;  "
+                id="section5" class="menu_page">
+                <div class="container">
+                    <div class="">
+
+                        
+                        <h2>Hs Music Company – Life in other peoples dreams <span>Journey in India</span></h2>
+                    </div><!-- .end section class -->
+                    <div class="clear"></div>
+                </div><!-- container -->
+            </section>
+            <style>
+                @media screen and (min-width:600px)
+                {
+                    .news-box
+                    {
+                        width:250px!important;
+                    }
+                }
+            </style>
+            <section style="background-color:#1c1c1c; " id="section6" class="menu_page">
+                <div class="container">
+                    <div class="">
+                        <h2 class="section_title">Impact & Recognition</h2>
+                        <div class="fourcolumn-news">
+                            <div class="news-box  " >
+                                <div class="news-thumb">
+                                    <a
+                                        href=""><img
+                                            src="https://static.toiimg.com/photo/msid-91352401/91352401.jpg" alt=" "></a>
+                                </div>
+                                <div class="newsdesc">
+                                    <div class="postdate">Arijit Singh</div>
+                                    <div class="catbox"><a href=""
+                                            title="View all posts in Sports"></a></div>
+                                    <div class="clear"></div>
+                                    <h5><a
+                                            href="">What
+                                            Is Required To Be Successful, Talent Or Luck ?</a></h5>
+                                    <p> Shreyash Is Now A Very Strong Believer Of MAHADEV & His Belief Is, He Is Nothing,
+                                        It’s Just Almighty’s Blessings.....</p>
+
+                                    <!-- <a class="newsmorebtn"
+                                        href="http://gracethemesdemo.com/music-club/2019/01/02/semper-mauris-vitae-hendrerit-erat/">Read
+                                        More</a> -->
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="news-box  " >
+                                <div class="news-thumb">
+                                    <a
+                                        href=""><img
+                                            src="https://bucketdata.blob.core.windows.net/s3data/starclinchwpimages/starclinch1/wp-content/uploads/2019/03/shweta-pandit-profile.jpg" alt=" "></a>
+                                </div>
+                                <div class="newsdesc">
+                                    <div class="postdate">Shweta Pandit</div>
+                                    <div class="catbox"><a href=""
+                                            title="View all posts in Sports"></a></div>
+                                    <div class="clear"></div>
+                                    <h5><a
+                                            href="">What
+                                            Is Required To Be Successful, Talent Or Luck ?</a></h5>
+                                    <p> Shweta Pandit’s Sentence During The Recording Session Was “Such Spiritual Thoughts Are Rarely Found In Today’s World. .....</p>
+
+                                    <!-- <a class="newsmorebtn"
+                                        href="http://gracethemesdemo.com/music-club/2019/01/02/semper-mauris-vitae-hendrerit-erat/">Read
+                                        More</a> -->
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="news-box  ">
+                                <div class="news-thumb">
+                                    <a
+                                        href=""><img
+                                            src="https://www.celebrityborn.com/admin/assets/images/people/cO1iIYuEYIlYpGQ5SRe6_2017_02_27.jpg"
+                                            alt=" "></a>
+                                </div>
+                                <div class="newsdesc">
+                                    <div class="postdate">Kalyanji Anand Ji</div>
+                                    <div class="catbox"><a
+                                            href=""
+                                            title="View all posts in Uncategorized"></a></div>
+                                    <div class="clear"></div>
+                                    <h5><a
+                                            href="">He
+                                            is In South Mumbai Where Shreyash Was Invited As A Judge</a></h5>
+                                    <p>AnandJi In An Event In South Mumbai Where Shreyash Was Invited As A Judge... </p>
+
+                                    <!-- <a class="newsmorebtn"
+                                        href="http://gracethemesdemo.com/music-club/2019/01/02/in-convallis-molestie-mauris-id-tempus-nisi/">Read
+                                        More</a> -->
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="news-box last">
+                                <div class="news-thumb">
+                                    <a
+                                        href="http://gracethemesdemo.com/music-club/2019/01/02/suscipit-nulla-maecenas-lobortis/"><img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Krishna_Beuraa.jpg"
+                                            alt=" "></a>
+                                </div>
+                                <div class="newsdesc">
+                                    <div class="postdate">Krishna Beura</div>
+                                    <div class="catbox"><a
+                                            href=""
+                                            title="View all posts in Uncategorized"></a></div>
+                                    <div class="clear"></div>
+                                    <h5><a
+                                            href="">Tujhse
+                                            Milke Ye Baawra” & Said Him Soon After Listening </a></h5>
+                                    <p>Krishna Beura Totally Loved His Composition “Tujhse Milke Ye Baawra” & Said Him Soon
+                                        After Listening The Song, That It’s A Brilliant ....</p>
+
+                                    <!-- <a class="newsmorebtn"
+                                        href="http://gracethemesdemo.com/music-club/2019/01/02/suscipit-nulla-maecenas-lobortis/">Read
+                                        More</a> -->
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div><!-- .end section class -->
+                    <div class="clear"></div>
+                </div><!-- container -->
+            </section>
+            <section
+                style="background-color:#111111; background-image:url('assets/images/bannersir.png'); background-repeat:no-repeat; background-position: center top; background-attachment:fixed; background-size:cover;  "
+                id="section7" class="menu_page">
+                <div class="container">
+                    <div class="">
+                        <p></p>
+                        <div class="one_half">&nbsp;</div>
+                        <div class="one_half last_column">
+                            <p></p>
+                            <h3>Humanitarian Work</h3>
+                            <p>The Moto Of His Academy Is Not Just To Make Money As He Welcomes All, Who Even Can’t Afford
+                                The Fees. As He Believes Education’s Right Is For All & Financial Status Is A Gift Of
+                                Almighty, For No One Money Should Become An Hurdle. With Easy Verification Steps Like Salary
+                                Sleep, Bank Statement Of Last 6 Months & Aadhaar. Everyone Who Can’t Afford The Fees Are
+                                Most Welcome To SoulFul Musik Academy.
+                            </p><br>
+                            <p>Shreyash Shandiliya (Born 21st November, 1993) Is An Indian Singer, Composer, Lyricist &
+                                Owner/Founder Of SoulFul Musik Academy & HS Musik Company.
+                            </p><br>
+                            <p>Shreyash Have Also Collaborated With Other Bollywood Singers Like Krishna Beura, Saraj Jagan,
+                                Anwesshaa, Shweta Pandit & Others..
+                            </p>
+                            <!-- <div class="custombtn" style="text-align:left">
+                                <a class="button" href="#" target="">Register Now</a>
+                            </div> -->
+                            <script>CountDownTimer("2022/12/15", "countdown1");</script>
+                            <!-- <div id="countdown1">
+                                <div class="counter-column">91<span>Days</span></div>
+                                <div class="counter-column">12<span>Hours</span></div>
+                                <div class="counter-column">34<span>Minutes</span></div>
+                                <div class="counter-column">55<span>Seconds</span></div>
+                            </div> -->
+                        </div>
+                        <p></p>
+                    </div><!-- .end section class -->
+                    <div class="clear"></div>
+                </div><!-- container -->
+            </section>
+            <section class="bg-light">
+                <div class="container">
+                    <div class="cols-1">
+
+                        <div class="widget-column-1">
+
+                            <div class="ftr_textlogo">
+                                <a href="http://gracethemesdemo.com/music-club/">
+                                    <h3 class="text-dark">Shreyash Shandiliya HS Music Academy</h3>
+                                </a>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <h3 class="text-dark">External Links
+                    </h3>
+                    <h3 class="text-dark">Do Listen & Follow Shreyash Shandiliya On All The Online Music Streaming Platforms</h3>
+                <h3><a
+                        href="https://gaana.com/artist/shreyash-shandiliya?autoplay=true"><img src="https://logodix.com/logo/661504.png" style="height:30px;width:200px" alt=""></a></h3>
+                        <h3><a href="https://www.jiosaavn.com/artist/shreyash-shandiliya/T5n7F394emY"><img src="https://miro.medium.com/max/2400/0*lIh0O5DuES-g5KsX.png" style="height:40px;width:160px" alt=""></a></h3>
+                    <h3><a href="https://itunes.apple.com/us/artist/shreyash-shandiliya/1211856473"><img src="https://www.bionictechreviews.com/static/images/apple/apple-music-logo.png" style="height:50px;width:160px" alt=""></a></h3>
+                    <!--<h3><a href="https://open.spotify.com/artist/1GhbBztYcJ7dNQ5XdBVwac"><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" style="height:40px;width:200px" alt=""></a></h3>-->
+                    <!--<h3><a href="https://play.google.com/store/search?q=shreyash%20shandiliya"><img src="https://logos-world.net/wp-content/uploads/2020/11/Google-Play-Logo.png" style="height:80px;width:100px" alt=""></a></h3>-->
+                    <h3><a href="https://www.hungama.com/artist/shreyash-shandiliya/170360973/"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Hungama_logo.png" style="height: 30px;width:200px" alt=""></a></h3>
+
+                    <h3><a href="https://soundcloud.com/shreyash-shandiliya"><img src="https://pngroyale.com/wp-content/uploads/2021/11/Download-soundcloud-logo-soundcloud-and-dubset-partner-develop-next-generatio.png" style="height: 100px;width: 100px;" alt=""></a>
+                </h3>
+                    <h3><a href="https://music.amazon.in/artists/B06XD9564X?tab=CATALOG"><img src="https://cutewallpaper.org/24/amazon-music-logo-png/apple-music-png-logo-music-logo-music-app-music-logo-design.png" style="height: 100px;width: 100px;" alt=""></a></h3>
+                    <div class="clear"></div>
+                </div>
+                </div>
+            </section>
+
+
+            <div id="footer-wrapper">
+                <div class="container footer">
+
+
+
+                    <!-- =============================== Column One - 1 =================================== -->
+                
+                <!--end .container-->
+
+                <div class="copyright-wrapper">
+                    <div class="container">
+                        <div class="design-by">Copyright 2020, Shreyash Shandiliya, All Rights Reserved. Developed and
+                            Managed by FoxyMediaHouse <a href="https://gracethemes.com/" target="_blank"></a></div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="back-top" style="display: none;">
+                <a title="Top of Page" href="#top"><span></span></a>
+            </div>
+           
+        </div>
+
+    </body>
+
+    </html>
